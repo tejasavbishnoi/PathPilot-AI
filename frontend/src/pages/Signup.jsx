@@ -17,7 +17,7 @@ function Signup() {
         try {
 
             await axios.post(
-                "http://localhost:8080/api/auth/signup",
+                "https://pathpilot-ai-backend.onrender.com/api/auth/signup",
                 {
                     name,
                     email,

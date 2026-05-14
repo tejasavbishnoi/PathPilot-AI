@@ -33,7 +33,7 @@ function Dashboard() {
             setLoading(true);
 
             const response = await axios.post(
-                "http://localhost:8080/api/ai/roadmap",
+                "https://pathpilot-ai-backend.onrender.com/api/ai/roadmap",
                 goal,
                 {
                     headers: {
